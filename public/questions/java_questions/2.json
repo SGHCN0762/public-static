@@ -1,0 +1,552 @@
+[
+  {
+    "id": "java-51",
+    "title": "Java中哪个类用于字符串操作？",
+    "options": [
+      "StringBuilder",
+      "以上都是",
+      "String",
+      "StringBuffer"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-52",
+    "title": "Java中哪个类用于日期操作？",
+    "options": [
+      "LocalDate",
+      "以上都是",
+      "Calendar",
+      "Date"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-53",
+    "title": "Java中哪个类用于随机数生成？",
+    "options": [
+      "Math",
+      "Random",
+      "UUID",
+      "SecureRandom"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-54",
+    "title": "Java中哪个类用于大整数操作？",
+    "options": [
+      "BigDecimal",
+      "BigInteger",
+      "Math",
+      "Number"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-55",
+    "title": "Java中哪个类用于高精度浮点数操作？",
+    "options": [
+      "BigInteger",
+      "Math",
+      "Number",
+      "BigDecimal"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-56",
+    "title": "Java中哪个类用于正则表达式？",
+    "options": [
+      "String",
+      "Regex",
+      "Pattern",
+      "Matcher"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-57",
+    "title": "Java中哪个类用于枚举？",
+    "options": [
+      "Enum",
+      "Iterator",
+      "Enumeration",
+      "Iterable"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "java-58",
+    "title": "Java中哪个类用于包装基本类型？",
+    "options": [
+      "Wrapper",
+      "Object",
+      "Integer",
+      "Boxing"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-59",
+    "title": "Java中哪个关键字用于定义接口？",
+    "options": [
+      "abstract",
+      "enum",
+      "interface",
+      "class"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-60",
+    "title": "Java中哪个关键字用于定义枚举？",
+    "options": [
+      "interface",
+      "enum",
+      "class",
+      "abstract"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-61",
+    "title": "Java中哪个关键字用于定义抽象类？",
+    "options": [
+      "interface",
+      "enum",
+      "abstract",
+      "class"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-62",
+    "title": "Java中哪个关键字用于定义同步方法？",
+    "options": [
+      "synchronized",
+      "atomic",
+      "volatile",
+      "lock"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "java-63",
+    "title": "Java中哪个关键字用于定义易变变量？",
+    "options": [
+      "synchronized",
+      "atomic",
+      "lock",
+      "volatile"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-64",
+    "title": "Java中哪个关键字用于定义本地方法？",
+    "options": [
+      "c++",
+      "jni",
+      "native",
+      "extern"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-65",
+    "title": "Java中哪个关键字用于定义瞬态变量？",
+    "options": [
+      "volatile",
+      "static",
+      "final",
+      "transient"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-66",
+    "title": "Java中哪个关键字用于定义序列化标识？",
+    "options": [
+      "static",
+      "serialVersionUID",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-67",
+    "title": "Java中哪个类用于对象序列化？",
+    "options": [
+      "ObjectOutputStream",
+      "Serializable",
+      "ObjectInputStream",
+      "Externalizable"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "java-68",
+    "title": "Java中哪个类用于对象反序列化？",
+    "options": [
+      "Serializable",
+      "Externalizable",
+      "ObjectInputStream",
+      "ObjectOutputStream"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-69",
+    "title": "Java中哪个接口用于标记可序列化？",
+    "options": [
+      "Runnable",
+      "Comparable",
+      "Serializable",
+      "Cloneable"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-70",
+    "title": "Java中哪个接口用于标记可克隆？",
+    "options": [
+      "Cloneable",
+      "Runnable",
+      "Comparable",
+      "Serializable"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "java-71",
+    "title": "Java中哪个接口用于比较大小？",
+    "options": [
+      "Comparable",
+      "Runnable",
+      "Cloneable",
+      "Serializable"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "java-72",
+    "title": "Java中哪个接口用于执行线程？",
+    "options": [
+      "Comparable",
+      "Serializable",
+      "Runnable",
+      "Cloneable"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-73",
+    "title": "Java中哪个类用于线程操作？",
+    "options": [
+      "Runnable",
+      "Thread",
+      "Future",
+      "Callable"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-74",
+    "title": "Java中哪个类用于线程同步？",
+    "options": [
+      "Semaphore",
+      "Lock",
+      "Synchronizer",
+      "Condition"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-75",
+    "title": "Java中哪个类用于线程池？",
+    "options": [
+      "Executors",
+      "以上都是",
+      "ExecutorService",
+      "ThreadPoolExecutor"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-76",
+    "title": "Java中哪个类用于原子操作？",
+    "options": [
+      "以上都是",
+      "AtomicBoolean",
+      "AtomicLong",
+      "AtomicInteger"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "java-77",
+    "title": "Java中哪个类用于并发集合？",
+    "options": [
+      "BlockingQueue",
+      "CopyOnWriteArrayList",
+      "ConcurrentHashMap",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-78",
+    "title": "Java中哪个类用于并发控制？",
+    "options": [
+      "以上都是",
+      "CyclicBarrier",
+      "Semaphore",
+      "CountDownLatch"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "java-79",
+    "title": "Java中哪个类用于并发同步？",
+    "options": [
+      "ReadWriteLock",
+      "StampedLock",
+      "ReentrantLock",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-80",
+    "title": "Java中哪个类用于并发交换？",
+    "options": [
+      "TransferQueue",
+      "Exchanger",
+      "SynchronousQueue",
+      "以上都是"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-81",
+    "title": "Java中哪个类用于并发分叉合并？",
+    "options": [
+      "RecursiveTask",
+      "ForkJoinPool",
+      "以上都是",
+      "ForkJoinTask"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-82",
+    "title": "Java中哪个类用于并发流？",
+    "options": [
+      "Stream",
+      "CompletableFuture",
+      "ForkJoinPool",
+      "ParallelStream"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-83",
+    "title": "Java中哪个类用于异步计算？",
+    "options": [
+      "Future",
+      "Optional",
+      "Promise",
+      "CompletableFuture"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-84",
+    "title": "Java中哪个类用于避免空指针？",
+    "options": [
+      "Optional",
+      "Nullable",
+      "Objects",
+      "NonNull"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "java-85",
+    "title": "Java中哪个类用于函数式接口？",
+    "options": [
+      "Consumer",
+      "Function",
+      "以上都是",
+      "Supplier"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-86",
+    "title": "Java中哪个类用于流式操作？",
+    "options": [
+      "IntStream",
+      "LongStream",
+      "以上都是",
+      "Stream"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-87",
+    "title": "Java中哪个类用于日期时间？",
+    "options": [
+      "LocalTime",
+      "以上都是",
+      "LocalDate",
+      "LocalDateTime"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-88",
+    "title": "Java中哪个类用于时区？",
+    "options": [
+      "ZoneOffset",
+      "ZoneId",
+      "ZonedDateTime",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-89",
+    "title": "Java中哪个类用于格式化？",
+    "options": [
+      "SimpleDateFormat",
+      "DateTimeFormatter",
+      "以上都是",
+      "DecimalFormat"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-90",
+    "title": "Java中哪个类用于资源加载？",
+    "options": [
+      "Class",
+      "Resource",
+      "ClassLoader",
+      "URL"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-91",
+    "title": "Java中哪个类用于反射？",
+    "options": [
+      "Field",
+      "以上都是",
+      "Method",
+      "Class"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-92",
+    "title": "Java中哪个类用于代理？",
+    "options": [
+      "InvocationHandler",
+      "Proxy",
+      "以上都是",
+      "Enhancer"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-93",
+    "title": "Java中哪个类用于注解？",
+    "options": [
+      "Retention",
+      "Annotation",
+      "Target",
+      "以上都是"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "java-94",
+    "title": "Java中哪个类用于泛型？",
+    "options": [
+      "TypeVariable",
+      "Type",
+      "ParameterizedType",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-95",
+    "title": "Java中哪个类用于网络？",
+    "options": [
+      "Socket",
+      "ServerSocket",
+      "URL",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-96",
+    "title": "Java中哪个类用于HTTP？",
+    "options": [
+      "HttpRequest",
+      "HttpURLConnection",
+      "以上都是",
+      "HttpClient"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-97",
+    "title": "Java中哪个类用于UDP？",
+    "options": [
+      "DatagramSocket",
+      "DatagramPacket",
+      "MulticastSocket",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-98",
+    "title": "Java中哪个类用于文件？",
+    "options": [
+      "Files",
+      "File",
+      "以上都是",
+      "Path"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "java-99",
+    "title": "Java中哪个类用于NIO？",
+    "options": [
+      "Channel",
+      "Selector",
+      "Buffer",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "java-100",
+    "title": "Java中哪个类用于字符集？",
+    "options": [
+      "Charset",
+      "Encoder",
+      "以上都是",
+      "Decoder"
+    ],
+    "correctAnswer": 0
+  }
+]

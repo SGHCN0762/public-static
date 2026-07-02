@@ -1,0 +1,552 @@
+[
+  {
+    "id": "vue-1",
+    "title": "Vue 3 中用于定义响应式数据的组合式 API 是？",
+    "options": [
+      "ref()",
+      "data()",
+      "useState()",
+      "setState()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-2",
+    "title": "Vue 3 中 reactive() 和 ref() 的主要区别是？",
+    "options": [
+      "reactive 只能处理对象",
+      "ref 性能更好",
+      "没有区别",
+      "ref 只能处理基本类型"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-3",
+    "title": "Vue 3 中 ref 包装对象类型数据时，内部实际调用的是？",
+    "options": [
+      "shallowReactive",
+      "observable",
+      "computed",
+      "reactive"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-4",
+    "title": "Vue 3 中 ref 在模板中自动解包的规则是？",
+    "options": [
+      "作为顶层属性自动解包",
+      "需要手动解包",
+      "在数组中自动解包",
+      "任何位置都自动解包"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-5",
+    "title": "Vue 3 中 reactive 的限制是？",
+    "options": [
+      "只能处理对象和数组",
+      "可以处理基本类型",
+      "解构后保持响应性",
+      "没有限制"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-6",
+    "title": "Vue 3 中 shallowRef 和 ref 的区别是？",
+    "options": [
+      "以上都是",
+      "shallowRef 性能更好",
+      "shallowRef 只跟踪 .value",
+      "shallowRef 不深度响应"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-7",
+    "title": "Vue 中 computed 和 watch 的区别是？",
+    "options": [
+      "computed 有缓存",
+      "computed 不能异步",
+      "以上都是",
+      "watch 支持异步"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "vue-8",
+    "title": "Vue 3 中 setup() 函数的执行时机是？",
+    "options": [
+      "beforeMount 之后",
+      "created 之后",
+      "mounted 之前",
+      "beforeCreate 之前"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-9",
+    "title": "Vue 中 v-for 循环时为什么要加 key？",
+    "options": [
+      "帮助 Vue 追踪节点",
+      "避免渲染错误",
+      "以上都是",
+      "提高性能"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "vue-10",
+    "title": "Vue 3 中 reactive 丢失响应性的原因不包括？",
+    "options": [
+      "使用 toRefs",
+      "解构赋值",
+      "重新赋值属性",
+      "替换整个对象"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-11",
+    "title": "Vue 3 中 ref 的本质是？",
+    "options": [
+      "一个类",
+      "一个包含 .value 属性的对象",
+      "一个函数",
+      "一个数组"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "vue-12",
+    "title": "Vue 3 中 reactive 对象被重新赋值后会怎样？",
+    "options": [
+      "丢失响应性",
+      "变成只读",
+      "报错",
+      "保持响应性"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-13",
+    "title": "Vue 3 中如何让 reactive 解构后保持响应性？",
+    "options": [
+      "使用 ref",
+      "直接解构",
+      "toRef",
+      "toRefs"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-14",
+    "title": "Vue 3 中 computed 的缓存机制是基于？",
+    "options": [
+      "哈希值",
+      "时间戳",
+      "版本号",
+      "依赖追踪"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-15",
+    "title": "Vue 3 中 watch 监听 reactive 对象时默认是？",
+    "options": [
+      "深度监听",
+      "只监听第一层",
+      "浅层监听",
+      "不监听"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-16",
+    "title": "Vue 3 中 toRef 和 toRefs 的区别是？",
+    "options": [
+      "toRef 转换单个属性",
+      "以上都是",
+      "toRefs 返回多个 ref",
+      "toRefs 转换整个对象"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "vue-17",
+    "title": "Vue 中动态组件使用哪个指令？",
+    "options": [
+      ":is",
+      "component",
+      "v-component",
+      "v-is"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-18",
+    "title": "Vue 3 中 watch 的 flush 选项默认值是？",
+    "options": [
+      "pre",
+      "async",
+      "post",
+      "sync"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-19",
+    "title": "Vue 3 中 watch 的 flush 选项设为 post 的效果是？",
+    "options": [
+      "DOM 更新后执行",
+      "DOM 更新前执行",
+      "同步执行",
+      "延迟执行"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-20",
+    "title": "Vue 3 中 defineComponent 的作用是？",
+    "options": [
+      "导出组件",
+      "创建组件",
+      "注册组件",
+      "提供 TypeScript 类型推导"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-21",
+    "title": "Vue 中 v-model 的本质是？",
+    "options": [
+      "双向绑定",
+      "语法糖",
+      "props + emit",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-22",
+    "title": "Vue 3 中自定义指令的生命周期钩子有哪些变化？",
+    "options": [
+      "新增钩子",
+      "没有变化",
+      "名称变更",
+      "删除钩子"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "vue-23",
+    "title": "Vue 中 provide/inject 适用于什么场景？",
+    "options": [
+      "兄弟组件通信",
+      "父子组件通信",
+      "全局状态管理",
+      "跨层级组件通信"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-24",
+    "title": "Vue 3 中 shallowReactive 的特点是？",
+    "options": [
+      "不可变",
+      "只读",
+      "只追踪第一层",
+      "深度响应"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "vue-25",
+    "title": "Vue 3 中 watch 监听 ref 定义的对象时，需要开启 deep 吗？",
+    "options": [
+      "报错",
+      "需要",
+      "自动深度监听",
+      "不需要"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "vue-26",
+    "title": "Vue 3 中 markRaw 的作用是？",
+    "options": [
+      "创建浅响应",
+      "冻结对象",
+      "克隆对象",
+      "标记对象不被响应式转换"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-27",
+    "title": "Vue 3 中 effectScope 的主要应用场景是？",
+    "options": [
+      "可复用的组合式函数",
+      "全局状态",
+      "组件通信",
+      "路由管理"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-28",
+    "title": "Vue 3 中 shallowRef 的适用场景是？",
+    "options": [
+      "频繁更新",
+      "小型对象",
+      "深度响应需求",
+      "大型不可变数据"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-29",
+    "title": "Vue 3 中 triggerRef 的使用场景是？",
+    "options": [
+      "computed",
+      "手动触发 shallowRef 更新",
+      "普通 ref",
+      "reactive"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "vue-30",
+    "title": "Vue 3 中 effectScope 的作用是？",
+    "options": [
+      "隔离作用域",
+      "以上都是",
+      "批量清理副作用",
+      "管理响应式效果"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "vue-31",
+    "title": "Vue 3 中 watch 的 lazy 特性是指？",
+    "options": [
+      "手动执行",
+      "延迟执行",
+      "异步执行",
+      "默认不立即执行"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-32",
+    "title": "Vue 3 中 readonly 的作用是？",
+    "options": [
+      "创建只读代理",
+      "冻结对象",
+      "禁止修改",
+      "常量声明"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-33",
+    "title": "Vue 3 中 shallowReadonly 的特点是？",
+    "options": [
+      "深层只读",
+      "完全不可变",
+      "可写",
+      "浅层只读"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-34",
+    "title": "Vue 3 中 getCurrentInstance 的使用建议是？",
+    "options": [
+      "必须使用",
+      "禁止使用",
+      "推荐使用",
+      "仅在高级场景使用"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-35",
+    "title": "Vue 3 中 watch 的 deep 选项性能影响是？",
+    "options": [
+      "无影响",
+      "只影响第一层",
+      "提升性能",
+      "需要遍历所有嵌套属性"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-36",
+    "title": "Vue 3 中 isRef 函数的作用是？",
+    "options": [
+      "创建 ref",
+      "转换 ref",
+      "判断是否为 ref",
+      "解包 ref"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "vue-37",
+    "title": "Vue 3 中 isReactive 函数的作用是？",
+    "options": [
+      "转换 reactive",
+      "创建 reactive",
+      "判断是否为 reactive",
+      "解包 reactive"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "vue-38",
+    "title": "Vue 3 中 triggerRef 的作用是？",
+    "options": [
+      "创建 ref",
+      "修改值",
+      "手动触发依赖追踪",
+      "监听变化"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "vue-39",
+    "title": "Vue 中 v-bind 的简写是？",
+    "options": [
+      "=",
+      "#",
+      "@",
+      ":"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-40",
+    "title": "Vue 3 中 customRef 的作用是？",
+    "options": [
+      "控制追踪和触发",
+      "创建自定义 ref",
+      "实现防抖节流",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-41",
+    "title": "Vue 中 event bus 在 Vue 3 中的替代方案是？",
+    "options": [
+      "以上都可以",
+      "Pinia",
+      "provide/inject",
+      "mitt"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-42",
+    "title": "Vue 3 中 toRaw 的作用是？",
+    "options": [
+      "创建响应式",
+      "冻结对象",
+      "获取原始对象",
+      "克隆对象"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "vue-43",
+    "title": "Vue 3 中 markRaw 标记后的对象还能变为响应式吗？",
+    "options": [
+      "需要特殊处理",
+      "能",
+      "部分能",
+      "不能"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-44",
+    "title": "Vue 3 中 watchEffect 和 watch 的区别是？",
+    "options": [
+      "watch 需要指定源",
+      "watchEffect 立即执行",
+      "watchEffect 自动收集依赖",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-45",
+    "title": "Vue 中 $parent 的使用建议是？",
+    "options": [
+      "必须使用",
+      "避免使用",
+      "推荐使用",
+      "只在子组件使用"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "vue-46",
+    "title": "Vue 3 中 reactive 的 Proxy 拦截器不包括？",
+    "options": [
+      "set",
+      "deleteProperty",
+      "get",
+      "call"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-47",
+    "title": "Vue 中 v-on 的修饰符 .stop 的作用是？",
+    "options": [
+      "阻止事件冒泡",
+      "只触发一次",
+      "阻止默认行为",
+      "捕获阶段触发"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "vue-48",
+    "title": "Vue 3 中 useSlots 和 useAttrs 的作用是？",
+    "options": [
+      "组件通信",
+      "路由跳转",
+      "在 setup 中访问 slots 和 attrs",
+      "创建响应式"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "vue-49",
+    "title": "Vue 中 directive 的 binding 对象不包含？",
+    "options": [
+      "instance",
+      "value",
+      "oldValue",
+      "component"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "vue-50",
+    "title": "Vue 3 中 ref 获取模板元素需要在哪个生命周期之后？",
+    "options": [
+      "onBeforeMount",
+      "setup",
+      "onCreated",
+      "onMounted"
+    ],
+    "correctAnswer": 3
+  }
+]

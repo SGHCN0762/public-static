@@ -1,0 +1,552 @@
+[
+  {
+    "id": "react-51",
+    "title": "React 中高阶组件的作用是？",
+    "options": [
+      "逻辑复用、属性代理、反向继承",
+      "性能优化",
+      "状态管理",
+      "路由控制"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-52",
+    "title": "React 中高阶组件的命名规范是？",
+    "options": [
+      "createXxx",
+      "useXxx",
+      "getXxx",
+      "withXxx 或 enhanceXxx"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-53",
+    "title": "React 中 Render Props 模式的定义是？",
+    "options": [
+      "通过 props 传递渲染逻辑的组件模式",
+      "渲染属性组件",
+      "以上都不对",
+      "在 render 中调用 props"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-54",
+    "title": "React 中 Render Props 的典型应用是？",
+    "options": [
+      "传递静态属性",
+      "处理错误",
+      "渲染多个子组件",
+      "共享组件间逻辑"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-55",
+    "title": "React 中 Portals 的作用是？",
+    "options": [
+      "数据持久化",
+      "组件传送",
+      "跨域通信",
+      "将子节点渲染到存在于父组件以外的 DOM 节点"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-56",
+    "title": "React 中 Portals 的典型应用场景是？",
+    "options": [
+      "模态框、工具提示、浮层",
+      "列表渲染",
+      "表单处理",
+      "路由跳转"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-57",
+    "title": "React 中 Fiber 架构的主要目标是？",
+    "options": [
+      "实现增量渲染和可中断更新",
+      "减少内存占用",
+      "提升首次加载速度",
+      "支持 TypeScript"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-58",
+    "title": "React 中 Reconciliation 算法的作用是？",
+    "options": [
+      "比较新旧虚拟 DOM 树并计算差异",
+      "合并 props",
+      "协调状态",
+      "修复组件错误"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-59",
+    "title": "React 中 Diff 算法的三个策略是？",
+    "options": [
+      "以上都不对",
+      "时间复杂度 O(n^3)",
+      "树级别、组件级别、元素级别比较",
+      "深度优先、广度优先、随机比较"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-60",
+    "title": "React 中虚拟 DOM 的优势是？",
+    "options": [
+      "不需要渲染",
+      "比真实 DOM 快",
+      "跨平台、批量更新、差异化更新",
+      "减少代码量"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-61",
+    "title": "React 中虚拟 DOM 的缺点是？",
+    "options": [
+      "性能差",
+      "学习曲线陡峭",
+      "内存占用较高，无法精确控制更新",
+      "不支持复杂 UI"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-62",
+    "title": "React 中批量更新的机制是？",
+    "options": [
+      "异步更新",
+      "手动触发",
+      "定时更新",
+      "将多次 setState 合并为一次更新"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-63",
+    "title": "React 中 flushSync 的作用是？",
+    "options": [
+      "取消更新",
+      "强制同步刷新状态更新",
+      "批量更新",
+      "延迟更新"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-64",
+    "title": "React 中并发模式的特点是？",
+    "options": [
+      "可中断渲染、优先级调度",
+      "多线程渲染",
+      "并行计算",
+      "同步渲染"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-65",
+    "title": "React 中 useId 的作用是？",
+    "options": [
+      "生成唯一 ID 用于可访问性",
+      "获取组件 ID",
+      "生成 key",
+      "生成随机数"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-66",
+    "title": "React 中 useSyncExternalStore 的作用是？",
+    "options": [
+      "缓存数据",
+      "存储数据",
+      "同步状态",
+      "订阅外部数据源保证一致性"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-67",
+    "title": "React 中 useInsertionEffect 的作用是？",
+    "options": [
+      "在 DOM 更新前同步插入样式",
+      "插入 DOM 节点",
+      "数据获取",
+      "副作用处理"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-68",
+    "title": "React 中 useDeferredValue 的作用是？",
+    "options": [
+      "节流",
+      "返回一个延迟更新的值",
+      "防抖",
+      "延迟渲染"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-69",
+    "title": "React 中 useTransition 的作用是？",
+    "options": [
+      "路由过渡",
+      "将状态更新标记为非阻塞过渡",
+      "组件切换",
+      "动画过渡"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-70",
+    "title": "React 中 Suspense 与 lazy 配合实现？",
+    "options": [
+      "数据获取",
+      "组件懒加载",
+      "状态管理",
+      "错误处理"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-71",
+    "title": "React 中 Suspense 的 fallback 属性作用是？",
+    "options": [
+      "指定加载策略",
+      "指定延迟时间",
+      "指定错误显示内容",
+      "指定加载中显示的内容"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-72",
+    "title": "React 中严格模式会重复调用哪些函数两次？",
+    "options": [
+      "异步函数",
+      "所有函数",
+      "事件处理函数",
+      "类组件构造函数、render 和副作用函数"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-73",
+    "title": "React 中如何处理表单验证？",
+    "options": [
+      "以上都不对",
+      "受控组件结合状态验证或第三方库",
+      "内置验证指令",
+      "DOM 验证"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-74",
+    "title": "React 中样式处理方式不包括？",
+    "options": [
+      "CSS Modules",
+      "Styled Components",
+      "Inline Style",
+      "v-bind:style"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-75",
+    "title": "React 中 CSS-in-JS 的优势是？",
+    "options": [
+      "局部作用域、动态样式、避免冲突",
+      "浏览器原生支持",
+      "无需编译",
+      "性能最好"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-76",
+    "title": "React 中 CSS Modules 的作用是？",
+    "options": [
+      "自动生成唯一的类名实现样式隔离",
+      "压缩 CSS",
+      "引入 CSS 文件",
+      "预处理 CSS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-77",
+    "title": "React 中 Styled Components 的特点？",
+    "options": [
+      "不支持主题",
+      "使用 ES6 模板字符串编写样式",
+      "基于对象样式",
+      "只支持 CSS 文件"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-78",
+    "title": "React 中为什么推荐使用驼峰命名事件？",
+    "options": [
+      "浏览器要求",
+      "React 限制",
+      "JSX 是 JavaScript 的扩展，遵循 JS 命名规范",
+      "HTML 规范"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-79",
+    "title": "React 中合成事件池的作用是？",
+    "options": [
+      "重用事件对象减少内存分配（React 17 已移除）",
+      "事件委托",
+      "事件冒泡",
+      "提高事件响应速度"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-80",
+    "title": "React 17 对事件系统的更改是？",
+    "options": [
+      "移除事件池",
+      "支持捕获阶段",
+      "事件委托到根节点而非 document",
+      "以上都是"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-81",
+    "title": "React 中如何阻止事件冒泡？",
+    "options": [
+      "return false",
+      "e.stopPropagation()",
+      "e.preventDefault()",
+      "e.cancelBubble"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-82",
+    "title": "React 中如何阻止默认行为？",
+    "options": [
+      "return false",
+      "e.stopImmediatePropagation()",
+      "e.preventDefault()",
+      "e.stopPropagation()"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-83",
+    "title": "React 中 this 绑定的方式不包括？",
+    "options": [
+      "构造函数中 bind",
+      "v-on 绑定",
+      "箭头函数包裹",
+      "类字段语法"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-84",
+    "title": "React 中类组件中直接调用箭头函数的性能问题是？",
+    "options": [
+      "状态丢失",
+      "无法访问 this",
+      "每次渲染都会创建新的函数实例",
+      "内存泄漏"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-85",
+    "title": "React 中函数组件的特点是？",
+    "options": [
+      "性能差",
+      "无实例、无 this、无生命周期、更轻量",
+      "不能传递 props",
+      "不能使用 state"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-86",
+    "title": "React 中类组件的特点是？",
+    "options": [
+      "不支持继承",
+      "性能最好",
+      "有实例、有 this、有生命周期、较复杂",
+      "不能使用 Hooks"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-87",
+    "title": "React 中组件命名推荐使用？",
+    "options": [
+      "kebab-case",
+      "PascalCase",
+      "camelCase",
+      "snake_case"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-88",
+    "title": "React 中 props 验证库通常是？",
+    "options": [
+      "prop-types",
+      "flow-bin",
+      "eslint",
+      "tslint"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-89",
+    "title": "React 中 PropTypes.string 的作用是？",
+    "options": [
+      "将 prop 转为字符串",
+      "验证 prop 是否为字符串",
+      "创建字符串",
+      "定义默认字符串"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-90",
+    "title": "React 中 PropTypes.isRequired 的作用是？",
+    "options": [
+      "验证函数",
+      "验证对象",
+      "标记 prop 为必填",
+      "验证数组"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-91",
+    "title": "React 中 defaultProps 和 PropTypes 的关系是？",
+    "options": [
+      "defaultProps 优先级更高",
+      "互斥使用",
+      "defaultProps 提供默认值，PropTypes 提供类型检查",
+      "两者相同"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-92",
+    "title": "React 中如何实现组件间的通信？",
+    "options": [
+      "只能通过 Context",
+      "Props、Context、Event Emitter、状态管理库",
+      "只能通过 Props",
+      "只能通过 Redux"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-93",
+    "title": "React 中父子组件通信的方式是？",
+    "options": [
+      "LocalStorage",
+      "事件总线",
+      "Props 向下传递，回调函数向上传递",
+      "Redux"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-94",
+    "title": "React 中兄弟组件通信的方式是？",
+    "options": [
+      "修改全局变量",
+      "直接传递 Props",
+      "DOM 操作",
+      "状态提升或状态管理库"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-95",
+    "title": "React 中跨层级组件通信的方式是？",
+    "options": [
+      "Context 或状态管理库",
+      "Props 逐层传递",
+      "原型链",
+      "闭包"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-96",
+    "title": "React 中组件复用的方式有？",
+    "options": [
+      "继承",
+      "Hooks、高阶组件、Render Props",
+      "Mixin",
+      "全局变量"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-97",
+    "title": "React 中 Mixin 的缺点是？",
+    "options": [
+      "性能差",
+      "不支持 TypeScript",
+      "语法复杂",
+      "命名冲突、隐式依赖、难以理解"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-98",
+    "title": "React 中 HOC 的缺点是？",
+    "options": [
+      "不支持函数组件",
+      "性能差",
+      "嵌套地狱、Props 来源不清、命名冲突",
+      "无法复用逻辑"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-99",
+    "title": "React 中 Render Props 的缺点是？",
+    "options": [
+      "嵌套地狱、可读性差",
+      "不支持类组件",
+      "不能传递参数",
+      "性能差"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-100",
+    "title": "React 中 Hooks 的优势是？",
+    "options": [
+      "兼容所有类组件",
+      "逻辑复用简单、代码清晰、无嵌套地狱",
+      "支持面向对象",
+      "性能更好"
+    ],
+    "correctAnswer": 1
+  }
+]

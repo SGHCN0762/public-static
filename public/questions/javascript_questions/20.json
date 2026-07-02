@@ -1,0 +1,552 @@
+[
+  {
+    "id": "js-951",
+    "title": "JavaScript中如何实现数组的洗牌算法？",
+    "options": [
+      "reverse",
+      "Fisher-Yates算法",
+      "sort随机",
+      "以上都不对"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-952",
+    "title": "JavaScript中如何实现继承？",
+    "options": [
+      "以上都是",
+      "Object.create()",
+      "原型链",
+      "class extends"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-953",
+    "title": "JavaScript中如何实现模块化？",
+    "options": [
+      "AMD",
+      "CommonJS",
+      "ES Module",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-954",
+    "title": "JavaScript中如何避免回调地狱？",
+    "options": [
+      "以上都是",
+      "Promise",
+      "Generator",
+      "async/await"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-955",
+    "title": "JavaScript中如何处理异常？",
+    "options": [
+      "Promise.catch",
+      "try...catch",
+      "window.onerror",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-956",
+    "title": "JavaScript中如何实现懒加载？",
+    "options": [
+      "IntersectionObserver",
+      "以上都是",
+      "scroll事件",
+      "img loading=lazy"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-957",
+    "title": "JavaScript中如何实现虚拟列表？",
+    "options": [
+      "计算可视区域渲染",
+      "以上都不对",
+      "分页渲染",
+      "全量渲染"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-958",
+    "title": "JavaScript中如何优化长任务？",
+    "options": [
+      "requestIdleCallback",
+      "Web Worker",
+      "时间分片",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-959",
+    "title": "JavaScript中如何避免内存泄漏？",
+    "options": [
+      "清除定时器",
+      "解除事件监听",
+      "以上都是",
+      "释放闭包引用"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-960",
+    "title": "JavaScript中如何实现深比较？",
+    "options": [
+      "===比较",
+      "JSON.stringify",
+      "以上都不对",
+      "递归比较"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-961",
+    "title": "JavaScript中如何实现不可变数据？",
+    "options": [
+      "展开运算符",
+      "以上都是",
+      "Immer",
+      "Object.freeze"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-962",
+    "title": "JavaScript中如何实现函数组合？",
+    "options": [
+      "for循环",
+      "reduce",
+      "递归",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-963",
+    "title": "JavaScript中如何实现管道函数？",
+    "options": [
+      "reduce从左到右",
+      "forEach",
+      "reduce从右到左",
+      "map"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-964",
+    "title": "JavaScript中如何实现并发控制？",
+    "options": [
+      "以上都不对",
+      "async/await",
+      "Promise.all",
+      "自定义调度器"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-965",
+    "title": "JavaScript中如何实现重试机制？",
+    "options": [
+      "while循环",
+      "递归+catch",
+      "for循环",
+      "以上都不对"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-966",
+    "title": "JavaScript中如何实现超时控制？",
+    "options": [
+      "setTimeout",
+      "Promise.all",
+      "以上都不对",
+      "Promise.race"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-967",
+    "title": "JavaScript中如何实现缓存函数？",
+    "options": [
+      "全局变量",
+      "闭包+Map",
+      "以上都不对",
+      "属性挂载"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-968",
+    "title": "JavaScript中如何实现单例模式？",
+    "options": [
+      "Symbol",
+      "闭包",
+      "以上都是",
+      "class静态属性"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-969",
+    "title": "JavaScript中如何实现策略模式？",
+    "options": [
+      "对象映射函数",
+      "if-else",
+      "以上都不对",
+      "switch-case"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-970",
+    "title": "JavaScript中如何实现状态模式？",
+    "options": [
+      "变量标记",
+      "状态对象映射",
+      "函数参数",
+      "以上都不对"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-971",
+    "title": "JavaScript中如何实现模板方法模式？",
+    "options": [
+      "组合",
+      "代理",
+      "以上都不对",
+      "继承+钩子方法"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-972",
+    "title": "JavaScript中如何实现迭代器模式？",
+    "options": [
+      "Symbol.iterator",
+      "for...in",
+      "以上都不对",
+      "forEach"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-973",
+    "title": "JavaScript中如何实现命令模式？",
+    "options": [
+      "函数封装",
+      "对象封装",
+      "以上都不对",
+      "类封装"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-974",
+    "title": "JavaScript中如何实现职责链模式？",
+    "options": [
+      "以上都不对",
+      "Promise链",
+      "数组循环",
+      "递归或next传递"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-975",
+    "title": "JavaScript中如何实现中介者模式？",
+    "options": [
+      "中央控制器",
+      "事件监听",
+      "直接通信",
+      "以上都不对"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-976",
+    "title": "JavaScript中如何实现享元模式？",
+    "options": [
+      "深拷贝",
+      "以上都不对",
+      "共享通用对象",
+      "创建新对象"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-977",
+    "title": "JavaScript中如何实现适配器模式？",
+    "options": [
+      "包装接口转换",
+      "以上都不对",
+      "继承",
+      "修改原接口"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-978",
+    "title": "JavaScript中如何实现外观模式？",
+    "options": [
+      "简化复杂接口",
+      "扩展接口",
+      "替换接口",
+      "以上都不对"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-979",
+    "title": "JavaScript中如何实现代理模式？",
+    "options": [
+      "以上都是",
+      "函数包裹",
+      "Proxy拦截",
+      "对象包裹"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-980",
+    "title": "JavaScript中如何实现发布订阅模式？",
+    "options": [
+      "CustomEvent",
+      "回调函数",
+      "EventEmitter",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-981",
+    "title": "JavaScript中如何实现MVC模式？",
+    "options": [
+      "Model-View-Controller",
+      "以上都不对",
+      "以上都不对",
+      "Model-View-ViewModel"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-982",
+    "title": "JavaScript中如何实现MVVM模式？",
+    "options": [
+      "以上都不对",
+      "直接操作DOM",
+      "数据劫持+模板编译",
+      "事件监听"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-983",
+    "title": "JavaScript中前端安全防范有哪些？",
+    "options": [
+      "缓冲区溢出",
+      "XSS, CSRF, 点击劫持",
+      "SQL注入",
+      "以上都不对"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-984",
+    "title": "JavaScript中如何防范XSS攻击？",
+    "options": [
+      "转义HTML",
+      "HttpOnly Cookie",
+      "CSP策略",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-985",
+    "title": "JavaScript中如何防范CSRF攻击？",
+    "options": [
+      "以上都是",
+      "Token验证",
+      "Referer检查",
+      "SameSite Cookie"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-986",
+    "title": "JavaScript中如何防范点击劫持？",
+    "options": [
+      "CSP",
+      "X-Frame-Options",
+      "HTTPS",
+      "以上都不对"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-987",
+    "title": "JavaScript中如何实现代码分割？",
+    "options": [
+      "动态import()",
+      "SplitChunksPlugin",
+      "以上都是",
+      "多入口"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-988",
+    "title": "JavaScript中如何实现Tree Shaking？",
+    "options": [
+      "以上都不对",
+      "ES6静态模块",
+      "CommonJS",
+      "AMD"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-989",
+    "title": "JavaScript中如何实现SSR？",
+    "options": [
+      "静态生成",
+      "客户端渲染",
+      "以上都不对",
+      "服务端渲染"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-990",
+    "title": "JavaScript中如何实现同构应用？",
+    "options": [
+      "两端渲染",
+      "路由共享",
+      "以上都是",
+      "代码共享"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-991",
+    "title": "JavaScript中如何进行性能监控？",
+    "options": [
+      "以上都是",
+      "Web Vitals",
+      "Lighthouse",
+      "Performance API"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-992",
+    "title": "JavaScript中如何进行错误监控？",
+    "options": [
+      "try...catch",
+      "以上都是",
+      "Promise.catch",
+      "window.onerror"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-993",
+    "title": "JavaScript中如何进行用户行为监控？",
+    "options": [
+      "埋点",
+      "以上都是",
+      "可视化埋点",
+      "无痕埋点"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-994",
+    "title": "JavaScript中如何实现国际化？",
+    "options": [
+      "i18n库",
+      "Intl API",
+      "多套代码",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-995",
+    "title": "JavaScript中如何实现主题切换？",
+    "options": [
+      "以上都是",
+      "CSS变量",
+      "class替换",
+      "切换样式表"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-996",
+    "title": "JavaScript中如何实现权限控制？",
+    "options": [
+      "接口校验",
+      "以上都是",
+      "路由守卫",
+      "指令控制"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-997",
+    "title": "JavaScript中如何实现数据可视化？",
+    "options": [
+      "WebGL",
+      "Canvas",
+      "SVG",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-998",
+    "title": "JavaScript中如何实现微前端？",
+    "options": [
+      "qiankun",
+      "iframe",
+      "single-spa",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-999",
+    "title": "JavaScript中如何实现低代码平台？",
+    "options": [
+      "可视化编辑",
+      "拖拽生成",
+      "JSON Schema渲染",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-1000",
+    "title": "JavaScript中单例模式的实现方式是？",
+    "options": [
+      "原型链",
+      "工厂函数",
+      "观察者",
+      "闭包+静态属性"
+    ],
+    "correctAnswer": 3
+  }
+]

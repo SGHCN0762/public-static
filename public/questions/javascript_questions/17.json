@@ -1,0 +1,552 @@
+[
+  {
+    "id": "js-801",
+    "title": "JavaScript中防抖的作用是？",
+    "options": [
+      "减少高频触发频率",
+      "以上都不对",
+      "延迟执行",
+      "立即执行"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-802",
+    "title": "JavaScript中节流的作用是？",
+    "options": [
+      "以上都不对",
+      "立即执行",
+      "延迟执行",
+      "限制执行频率"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-803",
+    "title": "JavaScript中防抖和节流的区别？",
+    "options": [
+      "节流最后一次执行",
+      "防抖最后一次执行，节流定期执行",
+      "没有区别",
+      "取决于实现"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-804",
+    "title": "JavaScript中如何实现防抖？",
+    "options": [
+      "setInterval",
+      "setTimeout + clearTimeout",
+      "以上都不对",
+      "requestAnimationFrame"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-805",
+    "title": "JavaScript中如何实现节流？",
+    "options": [
+      "以上都不对",
+      "仅setInterval",
+      "仅setTimeout",
+      "时间戳或定时器"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-806",
+    "title": "JavaScript中图片懒加载的原理是？",
+    "options": [
+      "延迟加载",
+      "以上都不对",
+      "图片进入视口才加载",
+      "预加载"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-807",
+    "title": "JavaScript中预加载的作用是？",
+    "options": [
+      "以上都不对",
+      "提前加载资源",
+      "延迟加载",
+      "按需加载"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-808",
+    "title": "JavaScript中如何实现预加载？",
+    "options": [
+      "link rel=\"preload\"",
+      "IntersectionObserver",
+      "lazy属性",
+      "以上都不对"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-809",
+    "title": "JavaScript中代码分割的作用是？",
+    "options": [
+      "按需加载代码",
+      "合并代码",
+      "以上都不对",
+      "减少代码量"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-810",
+    "title": "JavaScript中Tree Shaking的作用是？",
+    "options": [
+      "删除未使用代码",
+      "以上都不对",
+      "压缩代码",
+      "合并代码"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-811",
+    "title": "JavaScript中Tree Shaking的前提是？",
+    "options": [
+      "使用ES6模块",
+      "使用AMD",
+      "以上都不对",
+      "使用CommonJS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-812",
+    "title": "JavaScript中压缩代码的作用是？",
+    "options": [
+      "增加安全性",
+      "提高执行速度",
+      "减少文件大小",
+      "以上都不对"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-813",
+    "title": "JavaScript中混淆代码的作用是？",
+    "options": [
+      "增加逆向难度",
+      "减少文件大小",
+      "提高执行速度",
+      "以上都不对"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-814",
+    "title": "JavaScript中Source Map的作用是？",
+    "options": [
+      "映射压缩代码到源代码",
+      "压缩代码",
+      "以上都不对",
+      "混淆代码"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-815",
+    "title": "JavaScript中如何检测代码覆盖率？",
+    "options": [
+      "Performance工具",
+      "Network工具",
+      "Coverage工具",
+      "Memory工具"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-816",
+    "title": "JavaScript中如何优化启动性能？",
+    "options": [
+      "同步加载",
+      "增加代码量",
+      "以上都不对",
+      "代码分割，懒加载，预加载"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-817",
+    "title": "JavaScript中Web Vitals包括哪些指标？",
+    "options": [
+      "FCP, TTI",
+      "LCP, FID, CLS",
+      "FP, FMP",
+      "以上都不对"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-818",
+    "title": "JavaScript中如何监控性能？",
+    "options": [
+      "Date.now()",
+      "performance.now()",
+      "PerformanceObserver",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-819",
+    "title": "JavaScript中performance.now()的作用是？",
+    "options": [
+      "以上都不对",
+      "高精度时间戳",
+      "日期对象",
+      "低精度时间戳"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-820",
+    "title": "JavaScript中performance.mark的作用是？",
+    "options": [
+      "测量时间",
+      "获取时间戳",
+      "以上都不对",
+      "设置时间标记"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-821",
+    "title": "JavaScript中performance.measure的作用是？",
+    "options": [
+      "测量时间间隔",
+      "以上都不对",
+      "获取时间戳",
+      "设置时间标记"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-822",
+    "title": "JavaScript中如何优化JSON解析？",
+    "options": [
+      "使用eval",
+      "使用Web Worker",
+      "以上都不对",
+      "使用正则"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-823",
+    "title": "JavaScript中如何优化正则表达式？",
+    "options": [
+      "使用长正则",
+      "以上都不对",
+      "避免回溯，使用非捕获组",
+      "使用捕获组"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-824",
+    "title": "JavaScript中如何优化条件判断？",
+    "options": [
+      "使用if-else",
+      "使用switch",
+      "使用查找表，提前返回",
+      "以上都不对"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-825",
+    "title": "JavaScript中如何优化循环？",
+    "options": [
+      "减少循环内计算，使用while",
+      "使用forEach",
+      "以上都不对",
+      "使用for-in"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-826",
+    "title": "JavaScript中如何优化字符串拼接？",
+    "options": [
+      "以上都不对",
+      "使用concat",
+      "使用+=",
+      "使用数组join"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-827",
+    "title": "JavaScript中执行上下文的类型有？",
+    "options": [
+      "仅全局和函数",
+      "仅函数",
+      "全局，函数，Eval",
+      "仅全局"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-828",
+    "title": "JavaScript中执行上下文的生命周期有？",
+    "options": [
+      "仅创建和执行",
+      "创建，执行，回收",
+      "仅创建",
+      "仅执行"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-829",
+    "title": "JavaScript中创建阶段做了什么？",
+    "options": [
+      "创建变量对象，建立作用域链，确定this",
+      "回收内存",
+      "以上都不对",
+      "执行代码"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-830",
+    "title": "JavaScript中变量对象包含什么？",
+    "options": [
+      "仅参数",
+      "变量声明，函数声明，参数",
+      "仅变量声明",
+      "仅函数声明"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-831",
+    "title": "JavaScript中作用域链的作用是？",
+    "options": [
+      "执行代码",
+      "创建变量",
+      "保证有序访问变量",
+      "回收内存"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-832",
+    "title": "JavaScript中作用域链的查找规则是？",
+    "options": [
+      "随机查找",
+      "从外到内",
+      "从内到外，直到全局",
+      "就近查找"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-833",
+    "title": "JavaScript中变量提升是指？",
+    "options": [
+      "以上都不对",
+      "声明被提升到作用域顶部",
+      "赋值被提升",
+      "初始化被提升"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-834",
+    "title": "JavaScript中函数声明和函数表达式的提升区别？",
+    "options": [
+      "取决于严格模式",
+      "都整体提升",
+      "函数声明整体提升，表达式仅声明提升",
+      "都不提升"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-835",
+    "title": "JavaScript中let/const有变量提升吗？",
+    "options": [
+      "取决于环境",
+      "有，且可访问",
+      "没有",
+      "有，但存在TDZ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-836",
+    "title": "JavaScript中暂时性死区是指？",
+    "options": [
+      "let/const声明前不可访问的区域",
+      "以上都不对",
+      "var声明前不可访问",
+      "函数声明前不可访问"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-837",
+    "title": "JavaScript中闭包是指？",
+    "options": [
+      "箭头函数",
+      "回调函数",
+      "嵌套函数",
+      "函数和其词法环境的组合"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-838",
+    "title": "JavaScript中闭包的作用是？",
+    "options": [
+      "数据私有化，状态保持",
+      "继承",
+      "多态",
+      "创建对象"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-839",
+    "title": "JavaScript中闭包的缺点是？",
+    "options": [
+      "性能差",
+      "不兼容ES6",
+      "可能导致内存泄漏",
+      "语法复杂"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-840",
+    "title": "JavaScript中如何避免闭包导致的内存泄漏？",
+    "options": [
+      "使用var",
+      "及时释放引用",
+      "使用全局变量",
+      "不使用闭包"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-841",
+    "title": "JavaScript中ES6的模块化使用什么关键字？",
+    "options": [
+      "include",
+      "import/export",
+      "using",
+      "require/module.exports"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-842",
+    "title": "JavaScript中export default的作用是？",
+    "options": [
+      "导出命名模块",
+      "导出默认模块",
+      "定义模块",
+      "导入模块"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-843",
+    "title": "JavaScript中import的静态导入是在什么时候解析？",
+    "options": [
+      "运行时",
+      "执行时",
+      "以上都不对",
+      "编译时"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-844",
+    "title": "JavaScript中import()动态导入返回什么？",
+    "options": [
+      "模块对象",
+      "Promise",
+      "undefined",
+      "字符串"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-845",
+    "title": "JavaScript中动态导入的应用场景？",
+    "options": [
+      "模块合并",
+      "以上都不对",
+      "按需加载，代码分割",
+      "静态导入"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "js-846",
+    "title": "JavaScript中ES6模块和CommonJS的区别？",
+    "options": [
+      "ES6输出引用，CommonJS输出值拷贝",
+      "取决于环境",
+      "CommonJS输出引用",
+      "没有区别"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "js-847",
+    "title": "JavaScript中ES6模块的this指向？",
+    "options": [
+      "模块对象",
+      "取决于环境",
+      "全局对象",
+      "undefined"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-848",
+    "title": "JavaScript中CommonJS的this指向？",
+    "options": [
+      "全局对象",
+      "取决于环境",
+      "undefined",
+      "module.exports"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "js-849",
+    "title": "JavaScript中如何实现模块的循环依赖？",
+    "options": [
+      "取决于环境",
+      "ES6能获取已执行部分，CommonJS获取不完整",
+      "无法实现",
+      "都会报错"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "js-850",
+    "title": "JavaScript中解构赋值的默认值何时生效？",
+    "options": [
+      "等于null时",
+      "等于false时",
+      "严格等于undefined时",
+      "等于0时"
+    ],
+    "correctAnswer": 2
+  }
+]

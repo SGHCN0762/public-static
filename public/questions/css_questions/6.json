@@ -1,0 +1,552 @@
+[
+  {
+    "id": "css-251",
+    "title": "Flexbox中flex: 0 1 auto的含义是？",
+    "options": [
+      "不放大，空间不足时缩小，初始大小为自身大小",
+      "放大，缩小，初始为0",
+      "不放大，不缩小，初始为自身",
+      "放大，不缩小，初始为0"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-252",
+    "title": "Flexbox中如何实现反向布局？",
+    "options": [
+      "order: -1",
+      "flex-direction: row-reverse或column-reverse",
+      "float: right",
+      "direction: rtl"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-253",
+    "title": "Flexbox中如何实现换行后居中？",
+    "options": [
+      "align-content: center",
+      "justify-content: center配合flex-wrap: wrap",
+      "align-items: center",
+      "margin: auto"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-254",
+    "title": "Flexbox中flex-shrink为0导致溢出怎么办？",
+    "options": [
+      "使用float",
+      "增加容器宽度",
+      "配合min-width或overflow处理",
+      "减少项目数量"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-255",
+    "title": "Flexbox中如何实现等间距排列？",
+    "options": [
+      "margin: auto",
+      "justify-content: space-between或space-evenly",
+      "padding: 10px",
+      "gap: 10px"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-256",
+    "title": "Flexbox中如何实现最后一个元素靠右？",
+    "options": [
+      "float: right",
+      "position: absolute",
+      "margin-left: auto",
+      "text-align: right"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-257",
+    "title": "Flexbox中如何实现输入框自适应宽度？",
+    "options": [
+      "width: 100%",
+      "input设置flex: 1",
+      "overflow: hidden",
+      "display: block"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-258",
+    "title": "Flexbox中如何实现卡片列表？",
+    "options": [
+      "column-count",
+      "float: left",
+      "flex-wrap: wrap配合固定宽度和gap",
+      "display: inline-block"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-259",
+    "title": "Flexbox中如何实现导航栏？",
+    "options": [
+      "display: inline",
+      "position: relative",
+      "float: left",
+      "justify-content: space-between"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-260",
+    "title": "Flexbox中如何实现居中且底部对齐？",
+    "options": [
+      "text-align: center; vertical-align: bottom;",
+      "margin: 0 auto; bottom: 0;",
+      "align-items: flex-end; justify-content: center;",
+      "display: table-cell;"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-261",
+    "title": "Flexbox中如何实现侧边栏固定主内容自适应？",
+    "options": [
+      "侧边栏position: fixed",
+      "主内容width: 100%",
+      "主内容float: left",
+      "侧边栏flex: 0 0 200px，主内容flex: 1"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-262",
+    "title": "Flexbox中如何实现网格布局？",
+    "options": [
+      "float: left",
+      "flex-wrap: wrap配合百分比宽度",
+      "display: grid",
+      "column-count"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-263",
+    "title": "Flexbox中gap属性与margin的区别？",
+    "options": [
+      "gap性能更好",
+      "margin更灵活",
+      "没有区别",
+      "gap只在项目之间生效，首尾无间距；margin四周都生效"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-264",
+    "title": "Flexbox中如何实现垂直分割线？",
+    "options": [
+      "hr标签",
+      "outline: 1px solid",
+      "background: black",
+      "伪元素border-left或项目间border"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-265",
+    "title": "Flexbox中如何实现等宽按钮？",
+    "options": [
+      "按钮设置flex: 1",
+      "float: left",
+      "display: block",
+      "width: 100px"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-266",
+    "title": "Flexbox中如何实现文字垂直居中？",
+    "options": [
+      "align-items: center",
+      "vertical-align: middle",
+      "line-height等于height",
+      "padding: 10px 0"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-267",
+    "title": "Flexbox中flex-basis为百分比时相对于什么？",
+    "options": [
+      "弹性容器的内部宽度",
+      "自身宽度",
+      "父元素的宽度",
+      "视口宽度"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-268",
+    "title": "Flexbox中如何实现两端对齐且最后一行左对齐？",
+    "options": [
+      "float: left",
+      "使用伪元素占位或Grid布局",
+      "text-align: justify",
+      "justify-content: space-between"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-269",
+    "title": "Flexbox中如何实现瀑布流？",
+    "options": [
+      "flex-direction: column",
+      "flex-wrap: wrap",
+      "Flexbox不擅长，建议使用Grid或JS",
+      "column-count"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-270",
+    "title": "Flexbox中如何实现标签云？",
+    "options": [
+      "display: inline",
+      "float: left",
+      "column-count",
+      "flex-wrap: wrap; align-items: flex-start;"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-271",
+    "title": "Flexbox中如何实现表单布局？",
+    "options": [
+      "position: relative",
+      "float: left",
+      "flex-direction: column配合gap",
+      "display: table"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-272",
+    "title": "Flexbox中如何实现媒体对象？",
+    "options": [
+      "position: absolute",
+      "display: inline-block",
+      "图片固定宽度，内容flex: 1",
+      "float: left"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-273",
+    "title": "Flexbox中如何实现输入组？",
+    "options": [
+      "width: 100%",
+      "float: left",
+      "display: inline",
+      "按钮flex: none，输入框flex: 1"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-274",
+    "title": "Flexbox中如何实现悬挂缩进？",
+    "options": [
+      "负margin配合padding",
+      "text-indent",
+      "float: left",
+      "position: relative"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-275",
+    "title": "Flexbox中flex-shrink的计算公式是？",
+    "options": [
+      "等比例缩小",
+      "只缩小最后一个",
+      "按flex-shrink比例分配不足空间",
+      "不缩小"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-276",
+    "title": "Flexbox中如何实现吸顶效果？",
+    "options": [
+      "position: fixed",
+      "position: absolute",
+      "position: sticky",
+      "margin-top: 0"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-277",
+    "title": "Flexbox中如何实现吸底效果？",
+    "options": [
+      "vertical-align: bottom",
+      "bottom: 0",
+      "position: fixed",
+      "margin-top: auto或position: sticky"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-278",
+    "title": "Flexbox中如何实现水平滚动？",
+    "options": [
+      "display: inline-block;",
+      "flex-wrap: nowrap; overflow-x: auto;",
+      "overflow: scroll;",
+      "white-space: nowrap;"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-279",
+    "title": "Flexbox中如何实现步骤条？",
+    "options": [
+      "flex: 1配合伪元素连线",
+      "float: left",
+      "width: 25%",
+      "display: table-cell"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-280",
+    "title": "Flexbox中如何实现进度条？",
+    "options": [
+      "background-size",
+      "容器flex，内部flex-grow根据比例",
+      "width: 50%",
+      "clip-path"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-281",
+    "title": "Flexbox中如何实现轮播指示器？",
+    "options": [
+      "position: absolute",
+      "margin: 0 auto",
+      "text-align: center",
+      "justify-content: center; gap: 8px;"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-282",
+    "title": "Flexbox中如何实现面包屑？",
+    "options": [
+      "float: left",
+      "align-items: center; gap: 8px; 配合伪元素分隔符",
+      "display: inline",
+      "text-align: left"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-283",
+    "title": "Flexbox中如何实现分页器？",
+    "options": [
+      "justify-content: center; gap: 4px;",
+      "text-align: center",
+      "display: inline-block",
+      "margin: 0 auto"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-284",
+    "title": "Flexbox中如何实现头像列表？",
+    "options": [
+      "z-index递增",
+      "flex-direction: row-reverse; 配合负margin重叠",
+      "float: right",
+      "position: absolute"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-285",
+    "title": "Flexbox中如何实现标签页？",
+    "options": [
+      "flex: 1均分宽度或自适应",
+      "float: left",
+      "display: block",
+      "width: 100%"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-286",
+    "title": "Flexbox中如何实现下拉菜单？",
+    "options": [
+      "display: block",
+      "float: left",
+      "position: relative",
+      "flex-direction: column"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-287",
+    "title": "Flexbox中如何实现工具栏？",
+    "options": [
+      "margin: 0 auto",
+      "align-items: center; gap: 8px;",
+      "text-align: center",
+      "display: inline"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-288",
+    "title": "Flexbox中如何实现卡片角标？",
+    "options": [
+      "text-align: right",
+      "position: absolute配合flex容器",
+      "margin-left: auto",
+      "float: right"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-289",
+    "title": "Flexbox中如何实现列表项？",
+    "options": [
+      "align-items: center; justify-content: space-between;",
+      "border-bottom",
+      "display: block",
+      "padding: 10px"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-290",
+    "title": "Flexbox中如何实现开关组件？",
+    "options": [
+      "float切换",
+      "text-align切换",
+      "宽高固定，伪元素用transform移动",
+      "margin-left切换"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-291",
+    "title": "Flexbox中如何实现加载骨架屏？",
+    "options": [
+      "opacity: 0",
+      "display: none",
+      "flex布局配合渐变动画",
+      "visibility: hidden"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-292",
+    "title": "Flexbox中如何实现响应式卡片？",
+    "options": [
+      "width: 50%",
+      "column-count",
+      "float: left",
+      "flex-wrap: wrap; 配合min-width和flex-grow"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-293",
+    "title": "Flexbox中如何实现双行文本截断？",
+    "options": [
+      "-webkit-line-clamp: 2",
+      "text-overflow: ellipsis",
+      "overflow: hidden",
+      "height限制"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-294",
+    "title": "Flexbox中如何实现文字环绕图片？",
+    "options": [
+      "Flexbox不支持文字环绕，需使用float",
+      "align-items: flex-start",
+      "display: inline-block",
+      "flex-direction: row"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-295",
+    "title": "Flexbox中如何实现九宫格？",
+    "options": [
+      "display: grid",
+      "flex-wrap: wrap; 每项width: 33.33%",
+      "column-count: 3",
+      "float: left"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-296",
+    "title": "Flexbox中如何实现居中对齐且左右定宽？",
+    "options": [
+      "左右flex: none，中间flex: 1",
+      "float: left",
+      "margin: 0 auto",
+      "position: absolute"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-297",
+    "title": "Flexbox中如何实现多列等高？",
+    "options": [
+      "min-height",
+      "设置相同height",
+      "max-height",
+      "默认align-items: stretch即可"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-298",
+    "title": "Flexbox中如何实现单行两端对齐？",
+    "options": [
+      "margin: 0 auto",
+      "justify-content: space-between",
+      "float: left",
+      "text-align: justify"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-299",
+    "title": "Flexbox中如何实现垂直排列？",
+    "options": [
+      "display: block",
+      "column-count",
+      "float: left",
+      "flex-direction: column"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-300",
+    "title": "Flexbox中如何实现水平排列？",
+    "options": [
+      "display: inline",
+      "text-align: left",
+      "flex-direction: row",
+      "float: left"
+    ],
+    "correctAnswer": 2
+  }
+]

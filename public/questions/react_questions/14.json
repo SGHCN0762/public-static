@@ -1,0 +1,552 @@
+[
+  {
+    "id": "react-651",
+    "title": "React 中如何测试定时器？",
+    "options": [
+      "使用 jest.useFakeTimers 快进时间",
+      "不测试",
+      "无法测试",
+      "真实等待"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-652",
+    "title": "React 中如何测试文件上传？",
+    "options": [
+      "不测试",
+      "真实上传",
+      "无法测试",
+      "模拟文件选择和上传事件"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-653",
+    "title": "React 中如何测试拖拽？",
+    "options": [
+      "无法测试",
+      "不测试",
+      "模拟拖拽事件序列",
+      "真实拖拽"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-654",
+    "title": "React 中如何测试剪贴板？",
+    "options": [
+      "真实复制",
+      "不测试",
+      "模拟剪贴板事件或 mock API",
+      "无法测试"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-655",
+    "title": "React 中如何测试全屏？",
+    "options": [
+      "无法测试",
+      "不测试",
+      "真实全屏",
+      "mock Fullscreen API"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-656",
+    "title": "React 中如何测试通知？",
+    "options": [
+      "无法测试",
+      "mock Notification API",
+      "真实通知",
+      "不测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-657",
+    "title": "React 中如何测试地理位置？",
+    "options": [
+      "mock Geolocation API",
+      "不测试",
+      "真实定位",
+      "无法测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-658",
+    "title": "React 中如何测试媒体查询？",
+    "options": [
+      "无法测试",
+      "不测试",
+      "使用 window.matchMedia mock",
+      "改变窗口大小"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-659",
+    "title": "React 中如何测试本地存储？",
+    "options": [
+      "真实存储",
+      "使用 jest.spyOn 或 mock localStorage",
+      "不测试",
+      "无法测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-660",
+    "title": "React 中如何测试会话存储？",
+    "options": [
+      "不测试",
+      "无法测试",
+      "使用 jest.spyOn 或 mock sessionStorage",
+      "真实存储"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-661",
+    "title": "React 中如何测试 Cookie？",
+    "options": [
+      "使用 js-cookie mock 或 document.cookie",
+      "真实 Cookie",
+      "无法测试",
+      "不测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-662",
+    "title": "React 中如何测试控制台输出？",
+    "options": [
+      "忽略输出",
+      "无法测试",
+      "使用 jest.spyOn(console, \"log\")",
+      "不测试"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-663",
+    "title": "React 中如何测试错误日志？",
+    "options": [
+      "使用 jest.spyOn(console, \"error\")",
+      "忽略错误",
+      "不测试",
+      "无法测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-664",
+    "title": "React 中如何测试警告日志？",
+    "options": [
+      "使用 jest.spyOn(console, \"warn\")",
+      "忽略警告",
+      "无法测试",
+      "不测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-665",
+    "title": "React 中如何测试网络离线？",
+    "options": [
+      "不测试",
+      "模拟 navigator.onLine 或事件",
+      "断开网络",
+      "无法测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-666",
+    "title": "React 中如何测试页面可见性？",
+    "options": [
+      "切换标签",
+      "不测试",
+      "模拟 document.visibilityState",
+      "无法测试"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-667",
+    "title": "React 中如何测试焦点管理？",
+    "options": [
+      "断言 document.activeElement",
+      "不测试",
+      "肉眼观察",
+      "无法测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-668",
+    "title": "React 中如何测试键盘导航？",
+    "options": [
+      "不测试",
+      "无法测试",
+      "真实按键",
+      "模拟键盘事件"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-669",
+    "title": "React 中如何测试鼠标交互？",
+    "options": [
+      "真实点击",
+      "模拟鼠标事件",
+      "无法测试",
+      "不测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-670",
+    "title": "React 中如何测试触摸手势？",
+    "options": [
+      "无法测试",
+      "模拟触摸事件",
+      "不测试",
+      "真实触摸"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-671",
+    "title": "React 中如何测试滚动行为？",
+    "options": [
+      "无法测试",
+      "不测试",
+      "模拟滚动事件或 Intersection Observer",
+      "真实滚动"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-672",
+    "title": "React 中如何测试窗口大小？",
+    "options": [
+      "模拟 resize 事件",
+      "不测试",
+      "改变窗口大小",
+      "无法测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-673",
+    "title": "React 中如何测试打印？",
+    "options": [
+      "无法测试",
+      "真实打印",
+      "模拟 window.print",
+      "不测试"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-674",
+    "title": "React 中如何测试音频？",
+    "options": [
+      "mock Audio 对象",
+      "真实播放",
+      "不测试",
+      "无法测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-675",
+    "title": "React 中如何测试视频？",
+    "options": [
+      "不测试",
+      "无法测试",
+      "mock Video 对象",
+      "真实播放"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-676",
+    "title": "React 中如何测试 Canvas？",
+    "options": [
+      "真实绘制",
+      "不测试",
+      "mock Canvas 上下文",
+      "无法测试"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-677",
+    "title": "React 中如何测试 SVG？",
+    "options": [
+      "不测试",
+      "断言 SVG 元素属性",
+      "肉眼观察",
+      "无法测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-678",
+    "title": "React 中如何测试图表？",
+    "options": [
+      "不测试",
+      "断言图表数据和配置",
+      "肉眼观察",
+      "无法测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-679",
+    "title": "React 中如何测试地图？",
+    "options": [
+      "无法测试",
+      "真实加载",
+      "mock 地图 API",
+      "不测试"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-680",
+    "title": "React 中如何测试富文本？",
+    "options": [
+      "不测试",
+      "真实输入",
+      "无法测试",
+      "模拟输入和断言输出"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-681",
+    "title": "React 中如何测试代码编辑器？",
+    "options": [
+      "不测试",
+      "模拟输入和断言输出",
+      "无法测试",
+      "真实输入"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-682",
+    "title": "React 中如何测试 PDF 生成？",
+    "options": [
+      "无法测试",
+      "不测试",
+      "mock 生成函数或快照",
+      "真实生成"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-683",
+    "title": "React 中如何测试邮件发送？",
+    "options": [
+      "真实发送",
+      "mock 发送函数",
+      "无法测试",
+      "不测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-684",
+    "title": "React 中如何测试支付？",
+    "options": [
+      "mock 支付 API",
+      "真实支付",
+      "无法测试",
+      "不测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-685",
+    "title": "React 中如何测试第三方 SDK？",
+    "options": [
+      "mock SDK 方法",
+      "不测试",
+      "真实调用",
+      "无法测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-686",
+    "title": "React 中如何测试 Web Worker？",
+    "options": [
+      "不测试",
+      "无法测试",
+      "真实线程",
+      "mock Worker 或使用 jest-worker"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-687",
+    "title": "React 中如何测试 Service Worker？",
+    "options": [
+      "无法测试",
+      "mock SW API",
+      "真实缓存",
+      "不测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-688",
+    "title": "React 中如何测试 WebRTC？",
+    "options": [
+      "无法测试",
+      "mock RTCPeerConnection",
+      "不测试",
+      "真实连接"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-689",
+    "title": "React 中如何测试 WebSocket？",
+    "options": [
+      "不测试",
+      "mock WebSocket 对象",
+      "无法测试",
+      "真实连接"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-690",
+    "title": "React 中如何测试 SSE？",
+    "options": [
+      "真实连接",
+      "mock EventSource",
+      "无法测试",
+      "不测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-691",
+    "title": "React 中如何测试长连接？",
+    "options": [
+      "模拟连接和断开事件",
+      "不测试",
+      "真实连接",
+      "无法测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-692",
+    "title": "React 中如何测试轮询？",
+    "options": [
+      "无法测试",
+      "使用 jest.useFakeTimers",
+      "真实等待",
+      "不测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-693",
+    "title": "React 中如何测试并发？",
+    "options": [
+      "使用 act 和 waitFor",
+      "同步测试",
+      "不测试",
+      "无法测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-694",
+    "title": "React 中如何测试 Suspense？",
+    "options": [
+      "同步测试",
+      "不测试",
+      "无法测试",
+      "使用 act 和 waitFor 等待 resolve"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "react-695",
+    "title": "React 中如何测试 Transition？",
+    "options": [
+      "同步测试",
+      "使用 React.startTransition 和 waitFor",
+      "无法测试",
+      "不测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-696",
+    "title": "React 中如何测试 DeferredValue？",
+    "options": [
+      "断言延迟更新的值",
+      "不测试",
+      "同步测试",
+      "无法测试"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "react-697",
+    "title": "React 中如何测试 useId？",
+    "options": [
+      "不测试",
+      "断言生成的 ID 唯一性",
+      "忽略",
+      "无法测试"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-698",
+    "title": "React 中如何测试 useSyncExternalStore？",
+    "options": [
+      "忽略",
+      "不测试",
+      "模拟外部 store 变化",
+      "无法测试"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "react-699",
+    "title": "React 中如何测试 useInsertionEffect？",
+    "options": [
+      "无法测试",
+      "断言样式插入结果",
+      "不测试",
+      "忽略"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "react-700",
+    "title": "React 中如何测试并发渲染？",
+    "options": [
+      "不测试",
+      "同步测试",
+      "无法测试",
+      "使用 Suspense 和 Transition"
+    ],
+    "correctAnswer": 3
+  }
+]

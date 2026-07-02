@@ -1,0 +1,552 @@
+[
+  {
+    "id": "python-451",
+    "title": "Python中zlib模块的作用是？",
+    "options": [
+      "加密解密",
+      "哈希计算",
+      "Base64编解码",
+      "压缩解压"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-452",
+    "title": "Python中gzip模块的作用是？",
+    "options": [
+      "Gzip压缩解压",
+      "Lzma压缩解压",
+      "Bzip2压缩解压",
+      "Zip压缩解压"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "python-453",
+    "title": "Python中zipfile模块的作用是？",
+    "options": [
+      "Bzip2压缩解压",
+      "Zip压缩解压",
+      "Gzip压缩解压",
+      "Lzma压缩解压"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-454",
+    "title": "Python中tarfile模块的作用是？",
+    "options": [
+      "Zip压缩解压",
+      "Tar归档",
+      "Bzip2压缩解压",
+      "Gzip压缩解压"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-455",
+    "title": "Python中struct模块的作用是？",
+    "options": [
+      "数值计算",
+      "字符串处理",
+      "字节和Python类型转换",
+      "日期处理"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-456",
+    "title": "Python中codecs模块的作用是？",
+    "options": [
+      "代码执行",
+      "代码检查",
+      "代码优化",
+      "编解码器"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-457",
+    "title": "Python中如何检测文件编码？",
+    "options": [
+      "chardet库",
+      "以上都不对",
+      "encoding库",
+      "codecs库"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "python-458",
+    "title": "Python中如何监控文件变化？",
+    "options": [
+      "inotify",
+      "os.walk()",
+      "以上都不对",
+      "watchdog库"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-459",
+    "title": "Python中如何读写Excel文件？",
+    "options": [
+      "csv库",
+      "excel库",
+      "以上都不对",
+      "openpyxl, xlrd, xlwt"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-460",
+    "title": "Python中如何读写Word文件？",
+    "options": [
+      "python-docx",
+      "doc库",
+      "以上都不对",
+      "word库"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "python-461",
+    "title": "Python中如何读写PDF文件？",
+    "options": [
+      "pdf库",
+      "PyPDF2, pdfplumber",
+      "adobe库",
+      "以上都不对"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-462",
+    "title": "Python中如何处理图片？",
+    "options": [
+      "image库",
+      "以上都不对",
+      "graphic库",
+      "Pillow, OpenCV"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-463",
+    "title": "Python中如何发送邮件？",
+    "options": [
+      "mail库",
+      "以上都不对",
+      "post库",
+      "smtplib, email"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-464",
+    "title": "Python中如何操作SSH？",
+    "options": [
+      "shell库",
+      "ssh库",
+      "以上都不对",
+      "paramiko"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-465",
+    "title": "Python中如何执行系统命令？",
+    "options": [
+      "以上都可以",
+      "os.system",
+      "subprocess",
+      "os.popen"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "python-466",
+    "title": "Python中subprocess.run()的作用是？",
+    "options": [
+      "运行命令并等待",
+      "运行命令不等待",
+      "运行命令获取状态",
+      "运行命令获取输出"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "python-467",
+    "title": "Python中subprocess.Popen()的作用是？",
+    "options": [
+      "以上都不对",
+      "创建子进程",
+      "运行命令不等待",
+      "运行命令并等待"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-468",
+    "title": "Python中如何获取命令输出？",
+    "options": [
+      "subprocess.read()",
+      "subprocess.check_output()",
+      "以上都不对",
+      "subprocess.get_output()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-469",
+    "title": "Python中如何设置环境变量？",
+    "options": [
+      "以上都不对",
+      "os.setenv()",
+      "os.environ[key] = value",
+      "env.set()"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-470",
+    "title": "Python中如何获取进程ID？",
+    "options": [
+      "以上都不对",
+      "os.pid()",
+      "os.getpid()",
+      "sys.pid()"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-471",
+    "title": "Python中如何获取父进程ID？",
+    "options": [
+      "sys.ppid()",
+      "os.ppid()",
+      "以上都不对",
+      "os.getppid()"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-472",
+    "title": "Python中如何杀死进程？",
+    "options": [
+      "os.destroy()",
+      "os.terminate()",
+      "os.kill()",
+      "以上都不对"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-473",
+    "title": "Python中signal模块的作用是？",
+    "options": [
+      "网络通信",
+      "进程间通信",
+      "信号处理",
+      "线程同步"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-474",
+    "title": "Python中resource模块的作用是？",
+    "options": [
+      "线程管理",
+      "资源限制",
+      "进程管理",
+      "内存管理"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-475",
+    "title": "Python中ulimit如何设置？",
+    "options": [
+      "以上都不对",
+      "resource.setrlimit()",
+      "sys.setlimit()",
+      "os.setlimit()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-476",
+    "title": "Python中如何处理大文件？",
+    "options": [
+      "分块读取",
+      "生成器",
+      "以上都可以",
+      "内存映射"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-477",
+    "title": "Python中mmap模块的作用是？",
+    "options": [
+      "内存管理",
+      "文件缓存",
+      "以上都不对",
+      "内存映射文件"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-478",
+    "title": "Python中日志模块的Handler有？",
+    "options": [
+      "OutputHandler, InputHandler",
+      "StreamHandler, FileHandler",
+      "ConsoleHandler, DiskHandler",
+      "以上都不对"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-479",
+    "title": "Python中日志模块的Formatter作用是？",
+    "options": [
+      "记录日志",
+      "过滤日志",
+      "输出日志",
+      "格式化日志"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-480",
+    "title": "Python中日志模块的Filter作用是？",
+    "options": [
+      "记录日志",
+      "格式化日志",
+      "过滤日志",
+      "输出日志"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-481",
+    "title": "Python中GIL是指？",
+    "options": [
+      "通用接口层",
+      "全局内存锁",
+      "以上都不对",
+      "全局解释器锁"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-482",
+    "title": "Python中GIL的作用是？",
+    "options": [
+      "支持多核",
+      "提高性能",
+      "以上都不对",
+      "保证线程安全"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-483",
+    "title": "Python中GIL的影响是？",
+    "options": [
+      "单线程性能下降",
+      "以上都不对",
+      "多进程不能利用多核",
+      "多线程不能利用多核"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-484",
+    "title": "Python中GIL在什么情况下释放？",
+    "options": [
+      "I/O操作时",
+      "每执行一定字节码时",
+      "执行C扩展时",
+      "以上都是"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-485",
+    "title": "Python中threading模块的作用是？",
+    "options": [
+      "多线程",
+      "协程",
+      "多进程",
+      "异步"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "python-486",
+    "title": "Python中multiprocessing模块的作用是？",
+    "options": [
+      "异步",
+      "多线程",
+      "协程",
+      "多进程"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-487",
+    "title": "Python中asyncio模块的作用是？",
+    "options": [
+      "同步",
+      "多线程",
+      "多进程",
+      "协程"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-488",
+    "title": "Python中创建线程的方式是？",
+    "options": [
+      "Thread.new",
+      "以上都不对",
+      "threading.Thread",
+      "thread.Thread"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-489",
+    "title": "Python中启动线程的方法是？",
+    "options": [
+      "begin()",
+      "start()",
+      "execute()",
+      "run()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-490",
+    "title": "Python中等待线程结束的方法是？",
+    "options": [
+      "join()",
+      "wait()",
+      "sleep()",
+      "await()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "python-491",
+    "title": "Python中守护线程的设置方法是？",
+    "options": [
+      "daemon=False",
+      "guard=True",
+      "以上都不对",
+      "daemon=True"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "python-492",
+    "title": "Python中守护线程的特点是？",
+    "options": [
+      "主线程退出时自动退出",
+      "主线程退出时不退出",
+      "优先级最高",
+      "优先级最低"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "python-493",
+    "title": "Python中线程同步的方式有？",
+    "options": [
+      "Lock, RLock, Semaphore, Event",
+      "Mutex, Condition",
+      "以上都是",
+      "以上都不对"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-494",
+    "title": "Python中Lock的作用是？",
+    "options": [
+      "信号量",
+      "事件",
+      "互斥锁",
+      "递归锁"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-495",
+    "title": "Python中RLock的作用是？",
+    "options": [
+      "信号量",
+      "事件",
+      "递归锁",
+      "互斥锁"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-496",
+    "title": "Python中Lock和RLock的区别是？",
+    "options": [
+      "没有区别",
+      "RLock可被同一线程多次获取",
+      "取决于场景",
+      "Lock可被同一线程多次获取"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "python-497",
+    "title": "Python中Semaphore的作用是？",
+    "options": [
+      "信号量，控制并发数",
+      "递归锁",
+      "互斥锁",
+      "事件"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "python-498",
+    "title": "Python中Event的作用是？",
+    "options": [
+      "互斥锁",
+      "递归锁",
+      "事件通知",
+      "信号量"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-499",
+    "title": "Python中Condition的作用是？",
+    "options": [
+      "事件",
+      "信号量",
+      "条件变量",
+      "互斥锁"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "python-500",
+    "title": "Python中Barrier的作用是？",
+    "options": [
+      "条件变量",
+      "互斥锁",
+      "事件",
+      "栅栏，等待所有线程"
+    ],
+    "correctAnswer": 3
+  }
+]

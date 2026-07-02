@@ -1,0 +1,552 @@
+[
+  {
+    "id": "css-751",
+    "title": "viewport的width=device-width的作用是？",
+    "options": [
+      "宽度100%",
+      "固定宽度980px",
+      "宽度自适应",
+      "让视口宽度等于设备宽度"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-752",
+    "title": "如何实现响应式表格？",
+    "options": [
+      "overflow-x: auto或改变表格布局",
+      "width: 100%",
+      "border-collapse",
+      "display: none"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-753",
+    "title": "如何实现响应式视频？",
+    "options": [
+      "aspect-ratio或padding-bottom技巧",
+      "display: block",
+      "height: auto",
+      "width: 100%"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-754",
+    "title": "如何实现响应式卡片？",
+    "options": [
+      "float",
+      "flex-wrap或grid配合minmax",
+      "inline-block",
+      "table"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-755",
+    "title": "如何实现响应式背景图？",
+    "options": [
+      "object-fit: cover",
+      "background-size: cover",
+      "width: 100%",
+      "height: 100%"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-756",
+    "title": "如何实现响应式SVG？",
+    "options": [
+      "max-width",
+      "固定宽高",
+      "min-width",
+      "width: 100%; height: auto"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-757",
+    "title": "如何实现响应式iframe？",
+    "options": [
+      "aspect-ratio或padding-bottom",
+      "display: block",
+      "width: 100%",
+      "height: 100%"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-758",
+    "title": "如何实现响应式表单？",
+    "options": [
+      "inline-block",
+      "float",
+      "flex/grid布局配合媒体查询",
+      "table"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-759",
+    "title": "如何实现响应式模态框？",
+    "options": [
+      "width: 100%",
+      "height: 100%",
+      "max-width配合百分比宽度",
+      "position: fixed"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-760",
+    "title": "如何实现响应式轮播图？",
+    "options": [
+      "display: block",
+      "width: 100%",
+      "float",
+      "overflow: hidden配合transform"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-761",
+    "title": "如何实现响应式侧边栏？",
+    "options": [
+      "visibility",
+      "媒体查询切换display或flex/grid",
+      "float",
+      "position: absolute"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-762",
+    "title": "如何实现响应式页脚？",
+    "options": [
+      "grid布局或flex-wrap",
+      "float",
+      "inline-block",
+      "table"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-763",
+    "title": "如何实现响应式列表？",
+    "options": [
+      "flex-direction: column",
+      "inline-block",
+      "float",
+      "display: block"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-764",
+    "title": "如何实现响应式菜单？",
+    "options": [
+      "媒体查询配合flex/grid",
+      "inline-block",
+      "display: block",
+      "float"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-765",
+    "title": "如何实现响应式按钮？",
+    "options": [
+      "padding配合em/rem",
+      "固定宽度",
+      "height: 100%",
+      "display: block"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-766",
+    "title": "如何实现响应式间距？",
+    "options": [
+      "百分比",
+      "clamp()或vw",
+      "auto",
+      "固定px"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-767",
+    "title": "如何实现响应式排版？",
+    "options": [
+      "固定px",
+      "固定em",
+      "固定pt",
+      "clamp()或vw配合rem"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-768",
+    "title": "如何实现响应式布局的断点选择？",
+    "options": [
+      "固定768px",
+      "基于内容而非设备",
+      "随机选择",
+      "固定1024px"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-769",
+    "title": "如何实现响应式图片懒加载？",
+    "options": [
+      "display: none",
+      "loading=\"lazy\"配合媒体查询",
+      "opacity: 0",
+      "visibility: hidden"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-770",
+    "title": "如何实现响应式数据可视化？",
+    "options": [
+      "固定大小",
+      "表格",
+      "图片替代",
+      "SVG或Canvas配合resize事件"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-771",
+    "title": "如何实现响应式地图？",
+    "options": [
+      "height: 100%",
+      "aspect-ratio或padding-bottom",
+      "width: 100%",
+      "display: block"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-772",
+    "title": "如何实现响应式广告？",
+    "options": [
+      "display: none",
+      "固定大小",
+      "媒体查询或容器查询",
+      "position: absolute"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-773",
+    "title": "如何实现响应式打印样式？",
+    "options": [
+      "@media all",
+      "display: none",
+      "@media screen",
+      "@media print"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-774",
+    "title": "@media print中如何隐藏导航？",
+    "options": [
+      "position: absolute",
+      "opacity: 0",
+      "visibility: hidden",
+      "display: none"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-775",
+    "title": "@media print中如何确保链接显示URL？",
+    "options": [
+      "a[href]::after { content: \" (\" attr(href) \")\"; }",
+      "直接显示",
+      "data-url",
+      "title属性"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-776",
+    "title": "@media print中如何避免图片断裂？",
+    "options": [
+      "page-break-inside: avoid",
+      "display: block",
+      "page-break-before",
+      "page-break-after"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-777",
+    "title": "@media print中如何设置页边距？",
+    "options": [
+      "@page { margin: 2cm; }",
+      "border: 2cm",
+      "padding: 2cm",
+      "margin: 2cm"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-778",
+    "title": "@media print中如何强制换页？",
+    "options": [
+      "page-break-after",
+      "break-before",
+      "page-break-before: always",
+      "page-break-inside"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-779",
+    "title": "如何实现横屏打印？",
+    "options": [
+      "orientation: landscape",
+      "@media landscape",
+      "@page { size: landscape; }",
+      "rotate: 90"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-780",
+    "title": "如何实现响应式暗黑模式？",
+    "options": [
+      "filter: invert",
+      "color: white",
+      "prefers-color-scheme媒体查询",
+      "background: black"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-781",
+    "title": "如何实现响应式高对比度模式？",
+    "options": [
+      "color: black",
+      "border: bold",
+      "background: white",
+      "prefers-contrast媒体查询"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-782",
+    "title": "如何实现响应式减少动画模式？",
+    "options": [
+      "transition: none",
+      "animation: none",
+      "prefers-reduced-motion媒体查询",
+      "display: none"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-783",
+    "title": "如何实现响应式强制色彩模式？",
+    "options": [
+      "color: initial",
+      "background: initial",
+      "forced-colors媒体查询",
+      "filter: none"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-784",
+    "title": "如何实现响应式触摸屏适配？",
+    "options": [
+      "screen: touch",
+      "mobile: true",
+      "touch: true",
+      "@media (hover: none)或pointer: coarse"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-785",
+    "title": "hover: none媒体特性的作用是？",
+    "options": [
+      "禁止悬停",
+      "隐藏悬停效果",
+      "启用悬停",
+      "检测设备是否无法悬停（如触摸屏）"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-786",
+    "title": "pointer: coarse媒体特性的作用是？",
+    "options": [
+      "检测设备主指针是否粗糙（如手指）",
+      "检测鼠标",
+      "检测键盘",
+      "检测触控笔"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-787",
+    "title": "pointer: fine媒体特性的作用是？",
+    "options": [
+      "检测手指",
+      "检测设备主指针是否精细（如鼠标）",
+      "检测键盘",
+      "检测触控笔"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-788",
+    "title": "any-hover: hover媒体特性的作用是？",
+    "options": [
+      "检测设备是否有任何输入机制能悬停",
+      "隐藏悬停",
+      "只有主指针",
+      "禁止悬停"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-789",
+    "title": "any-pointer: fine媒体特性的作用是？",
+    "options": [
+      "检测手指",
+      "检测设备是否有任何精细指针",
+      "检测键盘",
+      "只有主指针"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-790",
+    "title": "如何实现响应式深色模式切换？",
+    "options": [
+      "background: black",
+      "filter: invert",
+      "color: white",
+      "CSS变量配合媒体查询或JS"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-791",
+    "title": "如何实现响应式布局的优雅降级？",
+    "options": [
+      "只支持最新浏览器",
+      "不支持任何浏览器",
+      "渐进增强策略",
+      "只支持旧浏览器"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-792",
+    "title": "如何实现响应式布局的特性检测？",
+    "options": [
+      "typeof check",
+      "@media feature",
+      "@supports规则",
+      "Modernizr"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-793",
+    "title": "@supports规则的作用是？",
+    "options": [
+      "支持某特性",
+      "启用某特性",
+      "检测浏览器是否支持某CSS特性",
+      "不支持某特性"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "css-794",
+    "title": "@supports (display: grid)的含义是？",
+    "options": [
+      "如果支持grid则应用样式",
+      "强制使用grid",
+      "如果不支持grid",
+      "禁用grid"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-795",
+    "title": "@supports not (display: grid)的含义是？",
+    "options": [
+      "支持grid",
+      "如果不支持grid则应用后备样式",
+      "禁用grid",
+      "强制使用grid"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-796",
+    "title": "如何实现响应式布局的浏览器兼容？",
+    "options": [
+      "只支持Chrome",
+      "特性检测、前缀、后备样式",
+      "只使用最新特性",
+      "不使用CSS3"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "css-797",
+    "title": "如何实现响应式布局的性能优化？",
+    "options": [
+      "减少重排重绘、按需加载、压缩资源",
+      "增加样式",
+      "增加脚本",
+      "增加图片"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-798",
+    "title": "如何实现响应式布局的可访问性？",
+    "options": [
+      "语义化HTML、ARIA、键盘导航",
+      "隐藏所有内容",
+      "只使用div",
+      "只使用span"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "css-799",
+    "title": "如何实现响应式布局的SEO优化？",
+    "options": [
+      "隐藏文本",
+      "关键词堆砌",
+      "使用iframe",
+      "语义化HTML、结构化数据、性能优化"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "css-800",
+    "title": "如何实现响应式布局的测试？",
+    "options": [
+      "只看效果",
+      "不需要测试",
+      "浏览器开发者工具、真机测试、在线工具",
+      "只测Chrome"
+    ],
+    "correctAnswer": 2
+  }
+]

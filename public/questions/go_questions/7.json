@@ -1,0 +1,602 @@
+[
+  {
+    "id": "go-301",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "WaitGroup",
+      "RWMutex",
+      "Once",
+      "Pool",
+      "Mutex"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-302",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "RWMutex",
+      "Once",
+      "Mutex",
+      "WaitGroup"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "go-303",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "Once",
+      "WaitGroup",
+      "RWMutex",
+      "Pool"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-304",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "Once",
+      "RWMutex",
+      "WaitGroup",
+      "Pool"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "go-305",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "WaitGroup",
+      "Pool",
+      "Mutex",
+      "Once",
+      "RWMutex"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "go-306",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "RWMutex",
+      "WaitGroup",
+      "Once",
+      "Pool",
+      "Mutex"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-307",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "Pool",
+      "Once",
+      "WaitGroup",
+      "RWMutex"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-308",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "RWMutex",
+      "WaitGroup",
+      "Once",
+      "Mutex"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-309",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "Mutex",
+      "RWMutex",
+      "WaitGroup",
+      "Once"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-310",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "WaitGroup",
+      "RWMutex",
+      "Mutex",
+      "Once",
+      "Pool"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-311",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "RWMutex",
+      "WaitGroup",
+      "Once",
+      "Pool"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "go-312",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "WaitGroup",
+      "Once",
+      "Pool",
+      "RWMutex",
+      "Mutex"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "go-313",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "Pool",
+      "Once",
+      "WaitGroup",
+      "RWMutex"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "go-314",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "Once",
+      "Pool",
+      "Mutex",
+      "RWMutex",
+      "WaitGroup"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "go-315",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "WaitGroup",
+      "RWMutex",
+      "Pool",
+      "Once"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "go-316",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "RWMutex",
+      "WaitGroup",
+      "Once",
+      "Mutex"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-317",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "RWMutex",
+      "Pool",
+      "WaitGroup",
+      "Once"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "go-318",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "Once",
+      "RWMutex",
+      "WaitGroup",
+      "Mutex",
+      "Pool"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-319",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "Once",
+      "Mutex",
+      "Pool",
+      "WaitGroup",
+      "RWMutex"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "go-320",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "Once",
+      "Pool",
+      "WaitGroup",
+      "RWMutex"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-321",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "Pool",
+      "Once",
+      "RWMutex",
+      "WaitGroup"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "go-322",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "Once",
+      "Mutex",
+      "RWMutex",
+      "Pool",
+      "WaitGroup"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-323",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "Mutex",
+      "WaitGroup",
+      "Once",
+      "RWMutex"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-324",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "Pool",
+      "WaitGroup",
+      "Once",
+      "RWMutex"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "go-325",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "WaitGroup",
+      "Pool",
+      "RWMutex",
+      "Once"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-326",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "RWMutex",
+      "Pool",
+      "Mutex",
+      "WaitGroup",
+      "Once"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-327",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "Mutex",
+      "Once",
+      "WaitGroup",
+      "RWMutex"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-328",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "RWMutex",
+      "Pool",
+      "Once",
+      "Mutex",
+      "WaitGroup"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-329",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "Once",
+      "Mutex",
+      "RWMutex",
+      "WaitGroup",
+      "Pool"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "go-330",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "Once",
+      "RWMutex",
+      "Pool",
+      "Mutex",
+      "WaitGroup"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-331",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "WaitGroup",
+      "Once",
+      "Pool",
+      "RWMutex"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "go-332",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "Mutex",
+      "WaitGroup",
+      "Once",
+      "RWMutex"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-333",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "Once",
+      "Pool",
+      "WaitGroup",
+      "Mutex",
+      "RWMutex"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-334",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "Once",
+      "Mutex",
+      "WaitGroup",
+      "RWMutex",
+      "Pool"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "go-335",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "WaitGroup",
+      "Pool",
+      "Once",
+      "Mutex",
+      "RWMutex"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "go-336",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "Once",
+      "Mutex",
+      "WaitGroup",
+      "RWMutex",
+      "Pool"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "go-337",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "WaitGroup",
+      "RWMutex",
+      "Once",
+      "Mutex"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-338",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "RWMutex",
+      "Once",
+      "WaitGroup",
+      "Mutex"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "go-339",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "Once",
+      "Mutex",
+      "Pool",
+      "RWMutex",
+      "WaitGroup"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "go-340",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "WaitGroup",
+      "Mutex",
+      "RWMutex",
+      "Once",
+      "Pool"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-341",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "WaitGroup",
+      "Once",
+      "RWMutex",
+      "Mutex"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-342",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "Once",
+      "WaitGroup",
+      "Mutex",
+      "RWMutex"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-343",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "RWMutex",
+      "WaitGroup",
+      "Pool",
+      "Once",
+      "Mutex"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "go-344",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "Mutex",
+      "Pool",
+      "RWMutex",
+      "WaitGroup",
+      "Once"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": "go-345",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "Once",
+      "Mutex",
+      "Pool",
+      "RWMutex",
+      "WaitGroup"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-346",
+    "title": "Go语言中，sync包中Lock/Unlock方法属于哪个类型？",
+    "options": [
+      "Once",
+      "WaitGroup",
+      "Mutex",
+      "RWMutex",
+      "Pool"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "go-347",
+    "title": "Go语言中，sync包中RLock/RUnlock方法属于哪个类型？",
+    "options": [
+      "Pool",
+      "RWMutex",
+      "Mutex",
+      "Once",
+      "WaitGroup"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "go-348",
+    "title": "Go语言中，sync包中Wait/Done方法属于哪个类型？",
+    "options": [
+      "WaitGroup",
+      "Once",
+      "RWMutex",
+      "Mutex",
+      "Pool"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "go-349",
+    "title": "Go语言中，sync包中Do方法属于哪个类型？",
+    "options": [
+      "RWMutex",
+      "Once",
+      "Mutex",
+      "Pool",
+      "WaitGroup"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "go-350",
+    "title": "Go语言中，sync包中Add/Done/Wait方法属于哪个类型？",
+    "options": [
+      "WaitGroup",
+      "Once",
+      "Pool",
+      "Mutex",
+      "RWMutex"
+    ],
+    "correctAnswer": 2
+  }
+]

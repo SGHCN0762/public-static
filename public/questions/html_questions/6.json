@@ -1,0 +1,552 @@
+[
+  {
+    "id": "html-251",
+    "title": "Canvas 2D绘图上下文的参数是？",
+    "options": [
+      "\"2d\"",
+      "\"svg\"",
+      "\"3d\"",
+      "\"webgl\""
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-252",
+    "title": "Canvas 3D绘图上下文的参数是？",
+    "options": [
+      "\"2d\"",
+      "\"3d\"",
+      "\"opengl\"",
+      "\"webgl\""
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-253",
+    "title": "<img>的ismap属性用于？",
+    "options": [
+      "响应式图片",
+      "客户端映射",
+      "懒加载",
+      "创建服务器端图像映射"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-254",
+    "title": "<img>的usemap属性用于？",
+    "options": [
+      "关联客户端图像映射",
+      "缩放图片",
+      "预加载",
+      "服务器映射"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-255",
+    "title": "<iframe>的srcdoc属性用于？",
+    "options": [
+      "指定样式",
+      "指定脚本",
+      "直接指定iframe中的HTML内容",
+      "指定URL"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-256",
+    "title": "<iframe>的name属性用于？",
+    "options": [
+      "作为链接的target目标",
+      "设置大小",
+      "设置ID",
+      "设置样式"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-257",
+    "title": "<iframe>的allowfullscreen属性用于？",
+    "options": [
+      "允许滚动",
+      "允许缩放",
+      "允许iframe全屏显示",
+      "允许脚本"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-258",
+    "title": "<iframe>的referrerpolicy属性用于？",
+    "options": [
+      "设置安全",
+      "设置请求iframe时的Referer策略",
+      "设置策略",
+      "设置引用"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "html-259",
+    "title": "<audio>和<video>的crossorigin属性用于？",
+    "options": [
+      "处理格式",
+      "处理控件",
+      "处理跨域资源",
+      "处理大小"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-260",
+    "title": "如何让视频在页面中自适应大小？",
+    "options": [
+      "设置max-width",
+      "设置width=\"100%\"",
+      "以上都可以",
+      "使用object-fit"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "html-261",
+    "title": "<source>标签的type属性用于？",
+    "options": [
+      "指定大小",
+      "指定路径",
+      "指定媒体资源的MIME类型",
+      "指定编码"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-262",
+    "title": "<source>标签的src属性用于？",
+    "options": [
+      "指定大小",
+      "指定类型",
+      "指定格式",
+      "指定媒体资源的URL"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-263",
+    "title": "HTML5中废弃的框架标签是？",
+    "options": [
+      "<iframe>",
+      "<section>",
+      "<frame>和<frameset>",
+      "<div>"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-264",
+    "title": "<embed>的src属性用于？",
+    "options": [
+      "指定类型",
+      "指定大小",
+      "指定样式",
+      "指定嵌入内容的URL"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-265",
+    "title": "<embed>的type属性用于？",
+    "options": [
+      "指定URL",
+      "指定大小",
+      "指定样式",
+      "指定嵌入内容的MIME类型"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-266",
+    "title": "如何实现视频的画中画功能？",
+    "options": [
+      "无法实现",
+      "使用CSS",
+      "使用HTML属性",
+      "使用JavaScript的requestPictureInPicture()"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-267",
+    "title": "<video>的playsinline属性用于？",
+    "options": [
+      "在iOS上内联播放而非全屏",
+      "自动播放",
+      "循环播放",
+      "静音播放"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-268",
+    "title": "<audio>不支持的视频属性是？",
+    "options": [
+      "playsinline",
+      "width",
+      "height",
+      "poster"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-269",
+    "title": "<object>的classid属性用于？",
+    "options": [
+      "指定类名",
+      "指定样式",
+      "指定ID",
+      "指定对象实现的URL(旧属性)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-270",
+    "title": "<object>的codetype属性用于？",
+    "options": [
+      "指定语言",
+      "指定代码类型",
+      "指定脚本",
+      "指定对象数据的MIME类型(旧属性)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-271",
+    "title": "<object>的archive属性用于？",
+    "options": [
+      "指定资源存档URL(旧属性)",
+      "指定压缩",
+      "指定存档",
+      "指定历史"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-272",
+    "title": "<map>的name属性用于？",
+    "options": [
+      "为图像映射命名以被引用",
+      "设置样式",
+      "设置ID",
+      "设置大小"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-273",
+    "title": "<area>的href属性用于？",
+    "options": [
+      "定义大小",
+      "定义区域超链接目标",
+      "定义坐标",
+      "定义形状"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "html-274",
+    "title": "<area>的target属性用于？",
+    "options": [
+      "定义形状",
+      "定义坐标",
+      "定义链接",
+      "规定在何处打开链接"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-275",
+    "title": "<area>的alt属性用于？",
+    "options": [
+      "定义链接",
+      "定义形状",
+      "定义坐标",
+      "定义区域的替代文本"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-276",
+    "title": "<figure>属于哪种元素？",
+    "options": [
+      "块级元素",
+      "内联块元素",
+      "内联元素",
+      "行内块元素"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-277",
+    "title": "<figcaption>可以放在<figure>的什么位置？",
+    "options": [
+      "外部",
+      "中间",
+      "第一个或最后一个子元素",
+      "任意位置"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-278",
+    "title": "<svg>的viewBox属性用于？",
+    "options": [
+      "定义SVG视口的位置和大小",
+      "定义背景",
+      "定义颜色",
+      "定义边框"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-279",
+    "title": "<svg>的xmlns属性用于？",
+    "options": [
+      "指定名称",
+      "指定样式",
+      "指定SVG命名空间",
+      "指定链接"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-280",
+    "title": "<canvas>的width和height属性用于？",
+    "options": [
+      "规定最大大小",
+      "规定CSS大小",
+      "规定画布的绘图表面大小",
+      "规定最小大小"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-281",
+    "title": "Canvas如何调整画布的CSS显示大小？",
+    "options": [
+      "通过CSS的width和height",
+      "通过HTML属性",
+      "无法调整",
+      "通过viewBox"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-282",
+    "title": "Canvas绘图时，如何清除画布内容？",
+    "options": [
+      "deleteRect()",
+      "clearRect()",
+      "removeRect()",
+      "eraseRect()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "html-283",
+    "title": "Canvas如何绘制填充矩形？",
+    "options": [
+      "strokeRect()",
+      "drawRect()",
+      "fillRect()",
+      "paintRect()"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-284",
+    "title": "Canvas如何绘制描边矩形？",
+    "options": [
+      "outlineRect()",
+      "strokeRect()",
+      "drawRect()",
+      "fillRect()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "html-285",
+    "title": "Canvas如何设置填充颜色？",
+    "options": [
+      "strokeStyle",
+      "fillStyle",
+      "background",
+      "color"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "html-286",
+    "title": "Canvas如何设置描边颜色？",
+    "options": [
+      "strokeStyle",
+      "borderColor",
+      "fillStyle",
+      "outlineColor"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-287",
+    "title": "Canvas如何绘制路径？",
+    "options": [
+      "startPath()",
+      "initPath()",
+      "createPath()",
+      "beginPath()和closePath()"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-288",
+    "title": "Canvas如何绘制直线？",
+    "options": [
+      "lineTo()",
+      "moveTo()",
+      "drawLine()",
+      "addLine()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-289",
+    "title": "Canvas如何绘制圆弧？",
+    "options": [
+      "arc()",
+      "round()",
+      "circle()",
+      "curve()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-290",
+    "title": "Canvas如何绘制文本？",
+    "options": [
+      "fillText()和strokeText()",
+      "drawText()",
+      "addText()",
+      "writeText()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-291",
+    "title": "Canvas如何保存绘图状态？",
+    "options": [
+      "keep()",
+      "store()",
+      "preserve()",
+      "save()"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-292",
+    "title": "Canvas如何恢复绘图状态？",
+    "options": [
+      "revert()",
+      "restore()",
+      "load()",
+      "retrieve()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "html-293",
+    "title": "Canvas如何实现动画？",
+    "options": [
+      "以上都可以",
+      "使用setTimeout",
+      "使用setInterval",
+      "使用requestAnimationFrame"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-294",
+    "title": "<img>标签的必需属性是？",
+    "options": [
+      "href和title",
+      "src和alt",
+      "href和alt",
+      "src和title"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "html-295",
+    "title": "<img>的alt属性作用是？",
+    "options": [
+      "图片无法显示时的替代文本",
+      "图片标题",
+      "图片描述",
+      "图片链接"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-296",
+    "title": "<img>的title属性作用是？",
+    "options": [
+      "替代文本",
+      "图片大小",
+      "图片链接",
+      "鼠标悬停时显示的提示文本"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-297",
+    "title": "<img>的loading=\"lazy\"属性用于？",
+    "options": [
+      "预加载图片",
+      "禁止加载图片",
+      "延迟加载图片",
+      "异步加载图片"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "html-298",
+    "title": "<img>的width和height属性用于？",
+    "options": [
+      "设置图片的固有尺寸",
+      "设置背景尺寸",
+      "设置最小尺寸",
+      "设置最大尺寸"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "html-299",
+    "title": "<img>的srcset属性用于？",
+    "options": [
+      "设置图片路径",
+      "设置图片格式",
+      "设置图片大小",
+      "提供不同分辨率的图片源"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "html-300",
+    "title": "<img>的sizes属性用于？",
+    "options": [
+      "设置路径",
+      "设置实际大小",
+      "告诉浏览器图片在页面中的预期尺寸",
+      "设置格式"
+    ],
+    "correctAnswer": 2
+  }
+]
